@@ -1,5 +1,11 @@
+/**
+  * Class Name: Customer
+  */
 object Customer {
   sealed trait Car
+  /**
+    * Object Name: car, all the necessary variables are declared in this class
+    */
   object Car {
     sealed trait Model extends Car
     sealed trait Color extends Car
